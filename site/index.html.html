@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>1 Ano de Nós - Rayane & Você</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffe4ec;
+    color: #61194f;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background: #ff9ac1;
+    padding: 30px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    margin: 0;
+    color: #4a0e36;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #35062f;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #7d3150;
+    border-bottom: 2px solid #ff7297;
+    padding-bottom: 10px;
+  }
+
+  /* Tulipa decorativa - no canto */
+  .tulip {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  /* Galeria */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .gallery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255,105,180,0.4);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Promessas */
+  .promises {
+    background: #ffb7ce55;
+    border-radius: 12px;
+    padding: 20px;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #4a0e36;
+    line-height: 1.6;
+  }
+
+  /* Contato - dedicatória */
+  .contact-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid #ff7297;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  footer {
+    text-align: center;
+    padding: 25px 10px;
+    background: #ff9ac1;
+    color: #4a0e36;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  /* Audio player custom */
+  audio {
+    display: block;
+    margin: 0 auto 30px auto;
+    outline: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2.8rem;
+    }
+    .gallery img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Rayane & Feliph</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#historia">Nossa História</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#promessas">Promessas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Bem-vinda ao nosso amor</h2>
+  <p>Celebrando 1 ano de muito amor, cumplicidade e sonhos juntos. Este site é para você, Rayane, com todo o carinho e a certeza de que nosso amor só cresce.</p>
+  <audio controls autoplay loop>
+    <source src="instrumental-como-tudo-deve-ser.mp3.mp3" type="audio/mp3" />
+    Seu navegador não suporta o elemento de áinstrumental-como-tudo-deve-ser.mp3udio.
+  </audio>
+</section>
+
+<section id="historia">
+  <h2>Nossa História</h2>
+  <p>
+    No começo, nosso amor enfrentou desafios grandes. Entre as diferenças e as opiniões dos seus pais e o que a igreja dizia, parecia que tudo conspirava contra a gente. Mas, mesmo com tudo isso, o que nos manteve firmes foi a força do nosso sentimento, a vontade de construir algo verdadeiro e a certeza de que juntos somos mais fortes. Cada dificuldade foi uma prova que só reforçou nosso laço. Hoje, celebramos 1 ano desse amor que resistiu, cresceu e se tornou a nossa maior vitória.
+  </p>
+</section>
+
+<section id="galeria">
+  <h2>Galeria</h2>
+  <p>Aqui você pode substituir as imagens pelos seus momentos especiais.</p>
+  <div class="gallery">
+    <img src="fotonossa.jpg" alt="EU TE AMO" />
+    <img src="foto2.jpg" alt="Foto 2" />
+    <img src="foto3.jpg" alt="Foto 3" />
+    <img src="foto4.jpg" alt="Foto 4" />
+  </div>
+</section>
+
+<section id="promessas">
+  <h2>Promessas</h2>
+  <div class="promises">
+    <p>Prometo estar ao seu lado nos dias de sol e nas tempestades.</p>
+    <p>Prometo te apoiar em cada sonho e celebrar cada conquista sua.</p>
+    <p>Prometo fazer do nosso amor o melhor lugar para sermos nós mesmos.</p>
+    <p>Prometo cuidar de você com todo carinho e respeito, sempre.</p>
+    <p>Prometo continuar escrevendo nossa história, juntos, a cada dia.</p>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Mensagem Final</h2>
+  <p>Rayane, esse ano ao seu lado foi o mais especial da minha vida. Que venham muitos mais para a gente construir, sorrir e amar. Te amo!</p>
+</section>
+
+<!-- Tulipa decorativa -->
+<svg class="tulip" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#ff5c8d" d="M32 2C24 12 22 22 32 30C42 22 40 12 32 2Z"/>
+  <path fill="#ff8ab8" d="M26 32L30 62H34L38 32H26Z"/>
+</svg>
+
+<footer>
+  © 2025 Com amor, Feliph.
+</footer>
+
+</body>
+</html>
